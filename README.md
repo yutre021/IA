@@ -9,6 +9,7 @@ FEATURES OF AI
 But lest start of history of ML
 
 # 1950 - Alan Turing
+ - [Article of the first thinking machine](https://archive.org/details/MIND--COMPUTING-MACHINERY-AND-INTELLIGENCE)
 
 # Theory of Probability
 - [PT Language](https://pt.wikipedia.org/wiki/Teoria_das_probabilidades)
