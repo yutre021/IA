@@ -100,7 +100,7 @@ I'm Computer Engeneering, with focous in AI ENGENEERIGN
 
 ## Roadmap
 
-- Serachs 2025
+- Searchs 2025
 
 - Get in Quantum Computing 
 
