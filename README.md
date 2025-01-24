@@ -114,6 +114,10 @@ AlphaGo (DeepMind)
 
 Bibliografia Básica
 
+STEINBRUCH, A; WINTERLE, Paulo. ÁLGEBRA LINEAR. 2. ed. São Paulo: Pearson, 2014.
+
+BRUCE, P; BRUCE, A. ESTATÍSTICA PRÁTICA: para cientistas de dados. 1. ed. Rio de Janeiro: Alta Books, 2019.
+
 GONZALEZ, Rafael C; WOODS, Richard E. Processamento digital de imagens. 3. ed. São Paulo: Pearson, 2010.
 
 GONZALEZ, R. C.; WOODS, R. E. Processamento de Imagens Digitais. São Paulo: Edgard Blücher, 2000.
