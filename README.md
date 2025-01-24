@@ -50,6 +50,17 @@ But lest start of history of ML
 | :---------- | :---------------------------------- |
 | `Springer` | https://link.springer.com/article/10.1007/s42979-021-00592-x?utm_source=chatgpt.com|
 
+| Web site   | LINK                          |
+| :---------- | :---------------------------------- |
+| `AZURE ML` | https://ml.azure.com|
+
+| Web site   | LINK                          |
+| :---------- | :---------------------------------- |
+| `AZURE ML` | https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/01-machine-learning.html|
+
+| Web site   | LINK                          |
+| :---------- | :---------------------------------- |
+| `AZURE AI` | https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html|
 
 
 ## 🛠 Abilities
