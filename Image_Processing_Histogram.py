@@ -10,10 +10,10 @@ plt.axis('off')  # turn of ex..
 plt.show()
 
 
-#Calculate o histogram
+#Calculate the histogram
 histograma = cv2.calcHist([imagem], [0], None, [256], [0,256])
 
-#Show o Histogram
+#Show the Histogram
 plt.plot(histograma, color='gray')
 plt.xlabel('Itensidade de Pixel')
 plt.ylabel('Numero de Pixels')
