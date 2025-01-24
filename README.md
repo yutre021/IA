@@ -112,6 +112,7 @@ AlphaGo (DeepMind)
 #Cluster
 - Is for a process of alot of amount data, were are distribuition for others computer [Cluster](https://www.ibm.com/docs/pt-br/ibm-mq/9.2?topic=management-application-programming-clusters&utm_source=chatgpt.com)
 
+- [Cluster 2](https://arxiv.org/abs/2207.05677?utm_source=chatgpt.com)
 ## BIBLIOGRAPHY
 
 Bibliografia Básica
