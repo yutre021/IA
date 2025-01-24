@@ -75,6 +75,9 @@ Python, R, Jupiter, and softwares of analysis...
 
 ## Learning
 
+
+
+
 The supervised machine, is when the machine is set data to mess with and find the best
 solution to the target propose.
 
@@ -98,6 +101,14 @@ AlphaGo (DeepMind)
 [Quantum IBM](https://www.ibm.com/quantum-computing/)
 
 [More of Quantum Computing](https://quantum.country/qcvc)
+
+- On A neural network, is set by input layer, hiden layer, and output layer
+- All layers is determined by maths functions
+
+#BACKPROPAGATION
+
+- There are Common activation functions like > Sigmoid (Logistic function) [Sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function), TanH(Hyperbolic tangent) [TanH](https://en.wikipedia.org/wiki/Hyperbolic_function#Hyperbolic_tangent), ReLu(rectified linear unit) [RedLu](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) and [sofmat](https://en.wikipedia.org/wiki/Softmax_function)
+
 
 ## BIBLIOGRAPHY
 
