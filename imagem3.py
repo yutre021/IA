@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Carregar a imagem
-imagem = cv2.imread('C:/Users/ycar2/OneDrive/Área de Trabalho/2024/1_Semestre/Processamento/pexels_03.webp',cv2.IMREAD_GRAYSCALE)
+imagem = cv2.imread('userpath/',cv2.IMREAD_GRAYSCALE)
 
 plt.imshow(imagem, cmap ="gray")
 plt.axis('off')  # Desligar os eixos
