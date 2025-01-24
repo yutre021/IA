@@ -2,18 +2,18 @@ import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Carregar a imagem
+# Load a image
 imagem = cv2.imread('userpath/',cv2.IMREAD_GRAYSCALE)
 
 plt.imshow(imagem, cmap ="gray")
-plt.axis('off')  # Desligar os eixos
+plt.axis('off')  # turn of ex..
 plt.show()
 
 
-#calcula o histograma
+#Calculate o histogram
 histograma = cv2.calcHist([imagem], [0], None, [256], [0,256])
 
-#Mostrar o Histograma
+#Show o Histogram
 plt.plot(histograma, color='gray')
 plt.xlabel('Itensidade de Pixel')
 plt.ylabel('Numero de Pixels')
