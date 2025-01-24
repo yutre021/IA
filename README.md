@@ -93,6 +93,28 @@ The Quantum Computing, gonna set a new Era of analysis data, my research about t
 
 [More of Quantum Computing](https://quantum.country/qcvc)
 
+## BIBLIOGRAPHY
+
+Bibliografia Básica
+
+GONZALEZ, Rafael C; WOODS, Richard E. Processamento digital de imagens. 3. ed. São Paulo: Pearson, 2010.
+
+GONZALEZ, R. C.; WOODS, R. E. Processamento de Imagens Digitais. São Paulo: Edgard Blücher, 2000.
+
+PEDRINI, Hélio; SCHWARTZ, William Robson. Análise de imagens digitais: princípios, algoritmos e aplicações. São Paulo: Thomson Learning, 2008.
+
+CASTLEMAN, Kenneth R. Digital image processing. Upper Saddle River, N. J.: Prentice-Hall, 1996.
+
+FOLEY, J. D. Computer Graphics: Principles and Practices. 2nd ed. New York: Addison-Wesley, 1996.
+
+Bibliografia Complementar
+
+HEINY, Loren. Advanced graphics programming using C/C++. New York: John Wiley & Sons, 1993.
+
+LYON, Douglas A. Image processing in Java. Upper Saddle River,NJ: Prentice-Hall, 1999
+
+MATSUMOTO, Elia Yathie. MATLAB 7: fundamentos. São Paulo: Érica, 2004
+
 
 
 
