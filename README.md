@@ -107,7 +107,7 @@ I'm Computer Engeneering, with focous in AI ENGENEERIGN
 
 ## Get in better
 
-- If you any have any sugestion just adm me
+- If you have any sugestion just adm me
 
 
 
