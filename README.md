@@ -85,6 +85,12 @@ Have one way that is the both sides, that human just give on sentence and the ML
 
 The Quantum Computing, gonna set a new Era of analysis data, my research about this is just in beginning
 
+Reinforcement Learning.
+
+AlphaGo (DeepMind)
+
+[AlphaFold](https://deepmind.com/blog/article/alphafold)
+
 [Quantum Microsoft](https://azure.microsoft.com/en-us/products/quantum/)
 
 [Quantum Google](https://ai.google/research/teams/applied-science/quantum/)
