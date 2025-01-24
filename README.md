@@ -146,7 +146,7 @@ MATSUMOTO, Elia Yathie. MATLAB 7: fundamentos. São Paulo: Érica, 2004
 
 
 
-## Autores
+## Author
 
 - [@yuri](https://github.com/yutre021)
 
