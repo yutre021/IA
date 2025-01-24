@@ -152,7 +152,7 @@ MATSUMOTO, Elia Yathie. MATLAB 7: fundamentos. São Paulo: Érica, 2004
 
 
 ## 🚀 About me
-I'm Computer Engeneering, with focous in AI ENGENEERIGN
+I'm Computer Engeneering, with focous in AI ENGENEERING
 
 
 
