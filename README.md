@@ -75,7 +75,19 @@ Python, R, Jupiter, and softwares of analysis...
 
 ## Learning
 
+# Statistics
 
+- Type of Data: Categorical and Numerical
+- Categorical: YES OR NO, Logo of cars
+- Numerical: Discrete ( Imagine each members of data set, number of children ) and Continues (Infinity and impossible to count, weight)
+
+## BASIC PROBABILITY
+- Trial, Experiment , Experimental Probability, Expected Value
+- Frequency
+- Combinatorics (Permutations, Variations, Combinations)
+- Factorials
+- Bayesian Inference (Mutual Exclusive, Intersect, Union, Completely Overlap)
+- Distributions (Discrete, Continuous)
 
 
 The supervised machine, is when the machine is set data to mess with and find the best
