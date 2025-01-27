@@ -81,6 +81,12 @@ Python, R, Jupiter, and softwares of analysis...
 - Categorical: YES OR NO, Logo of cars
 - Numerical: Discrete ( Imagine each members of data set, number of children ) and Continues (Infinity and impossible to count, weight)
 
+# Descriptive Statistics
+- Qualitative is separete on Nominal and Ordinal
+- Quantittive is separate in Interval and Ratio
+- Mean, median, mode 
+- Covariance and Correlation
+
 ## BASIC PROBABILITY
 - Trial, Experiment , Experimental Probability, Expected Value
 - Frequency
