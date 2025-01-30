@@ -147,7 +147,7 @@ AlphaGo (DeepMind)
 <img src="assets/RNA2.png" alt="Texto alternativo" width="2000">
 
 # Perceptron
-- It1s a simple code math that calculate one weighted sum
+- It's a simple code math that calculate one weighted sum
 - [Here is one simple code example](https://github.com/yutre021/IA/blob/main/perceptron.py)
 ## BIBLIOGRAPHY
 
