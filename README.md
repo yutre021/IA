@@ -9,7 +9,7 @@ But lest start of history of ML
 
 # 1950 - Alan Turing
 
-<img src="assets/RNA2.png" alt="Texto alternativo" width="2000">
+<img src="assets/alan.png" alt="Texto alternativo" width="2000">
 
  - [Article of the first thinking machine](https://archive.org/details/MIND--COMPUTING-MACHINERY-AND-INTELLIGENCE)
 
