@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/396cf641-0b45-42e2-91fb-96ffe0b4f4bd)
 # IA
 Here i gonna set a free material talking about AI and ML
 
@@ -132,6 +132,12 @@ AlphaGo (DeepMind)
 
 - [Cluster 2](https://arxiv.org/abs/2207.05677?utm_source=chatgpt.com)
 ## BIBLIOGRAPHY
+
+
+#RNA
+- BUILDED OF PREDEFINED NEURONS
+- Computional Neurons
+- N -> IN
 
 Bibliografia Básica
 
