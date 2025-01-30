@@ -136,67 +136,67 @@ AlphaGo (DeepMind)
 # 1. Activation Functions
 Activation functions introduce non-linearity into the network, allowing it to learn complex patterns. During backpropagation, the derivative of the activation function is used to compute the gradient.
 Important Characteristics:
-•	The activation function must be differentiable so that the gradient can be computed.
-•	The choice of function can affect the learning performance.
+-	The activation function must be differentiable so that the gradient can be computed.
+-	The choice of function can affect the learning performance.
 Main Activation Functions:
 1.	Sigmoid
-o	Formula: f(x)=11+e−xf(x) = \frac{1}{1 + e^{-x}}f(x)=1+e−x1
-o	Derivative: f′(x)=f(x)⋅(1−f(x))f'(x) = f(x) \cdot (1 - f(x))f′(x)=f(x)⋅(1−f(x))
-o	Issues: Small gradients for extreme values (xxx) lead to vanishing gradient.
+-	Formula: f(x)=11+e−xf(x) = \frac{1}{1 + e^{-x}}f(x)=1+e−x1
+-	Derivative: f′(x)=f(x)⋅(1−f(x))f'(x) = f(x) \cdot (1 - f(x))f′(x)=f(x)⋅(1−f(x))
+-	Issues: Small gradients for extreme values (xxx) lead to vanishing gradient.
 2.	Tanh
-o	Formula: f(x)=ex−e−xex+e−xf(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}f(x)=ex+e−xex−e−x
-o	Derivative: f′(x)=1−f(x)2f'(x) = 1 - f(x)^2f′(x)=1−f(x)2
-o	Better than Sigmoid, but still suffers from small gradients for extreme values.
+-	Formula: f(x)=ex−e−xex+e−xf(x) = \frac{e^x - e^{-x}}{e^x + e^{-x}}f(x)=ex+e−xex−e−x
+-	Derivative: f′(x)=1−f(x)2f'(x) = 1 - f(x)^2f′(x)=1−f(x)2
+-	Better than Sigmoid, but still suffers from small gradients for extreme values.
 3.	ReLU (Rectified Linear Unit)
-o	Formula: f(x)=max⁡(0,x)f(x) = \max(0, x)f(x)=max(0,x)
-o	Derivative: f′(x)=1f'(x) = 1f′(x)=1 (if x>0x > 0x>0), 000 (if x≤0x \leq 0x≤0)
-o	Issues: Dead neurons when many values become 0.
+-	Formula: f(x)=max⁡(0,x)f(x) = \max(0, x)f(x)=max(0,x)
+-	Derivative: f′(x)=1f'(x) = 1f′(x)=1 (if x>0x > 0x>0), 000 (if x≤0x \leq 0x≤0)
+-	Issues: Dead neurons when many values become 0.
 4.	Leaky ReLU
-o	Introduces a small gradient for x<0x < 0x<0 (f′(x)=0.01f'(x) = 0.01f′(x)=0.01).
-o	Solves the dead neuron issue.
+-	Introduces a small gradient for x<0x < 0x<0 (f′(x)=0.01f'(x) = 0.01f′(x)=0.01).
+-	Solves the dead neuron issue.
 5.	Softmax
-o	Used in the output layer for multi-class classification.
-o	Converts values into probabilities and works well with cross-entropy loss.
+-	Used in the output layer for multi-class classification.
+-	Converts values into probabilities and works well with cross-entropy loss.
 ________________________________________
 # 2. Loss Functions
 The loss function measures the error between the network's predictions and the actual values. Backpropagation uses the gradient of the loss with respect to the weights to update them.
 Important Characteristics:
-•	The loss function should reflect the goal of the task (regression, classification, etc.).
-•	The wrong choice can lead to problems such as underfitting or overfitting.
+-	The loss function should reflect the goal of the task (regression, classification, etc.).
+-	The wrong choice can lead to problems such as underfitting or overfitting.
 Main Loss Functions:
 1.	Mean Squared Error (MSE)
-o	Formula: L=1n∑i=1n(yi−y^i)2L = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2L=n1∑i=1n(yi−y^i)2
-o	Used for regression.
-o	Problem: Small gradients when errors are small, which can slow down learning.
+-	Formula: L=1n∑i=1n(yi−y^i)2L = \frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2L=n1∑i=1n(yi−y^i)2
+-	Used for regression.
+-	Problem: Small gradients when errors are small, which can slow down learning.
 2.	Mean Absolute Error (MAE)
-o	Formula: L=1n∑i=1n∣yi−y^i∣L = \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i|L=n1∑i=1n∣yi−y^i∣
-o	Resistant to outliers but can be less stable during optimization.
+-	Formula: L=1n∑i=1n∣yi−y^i∣L = \frac{1}{n} \sum_{i=1}^n |y_i - \hat{y}_i|L=n1∑i=1n∣yi−y^i∣
+-	Resistant to outliers but can be less stable during optimization.
 3.	Cross-Entropy Loss
-o	Formula: L=−∑i=1nyilog⁡(y^i)L = -\sum_{i=1}^n y_i \log(\hat{y}_i)L=−∑i=1nyilog(y^i)
-o	Used for classification, especially with Softmax.
-o	Penalizes predictions with low confidence.
+-	Formula: L=−∑i=1nyilog⁡(y^i)L = -\sum_{i=1}^n y_i \log(\hat{y}_i)L=−∑i=1nyilog(y^i)
+-	Used for classification, especially with Softmax.
+-	Penalizes predictions with low confidence.
 4.	Hinge Loss
-o	Formula: L=max⁡(0,1−y⋅y^)L = \max(0, 1 - y \cdot \hat{y})L=max(0,1−y⋅y^)
-o	Used for margin classifiers, like SVMs.
+-	Formula: L=max⁡(0,1−y⋅y^)L = \max(0, 1 - y \cdot \hat{y})L=max(0,1−y⋅y^)
+-	Used for margin classifiers, like SVMs.
 5.	Huber Loss
-o	Combines MSE and MAE, being less sensitive to outliers.
-o	Used for robust regression.
+-	Combines MSE and MAE, being less sensitive to outliers.
+-	Used for robust regression.
 ________________________________________
 # Backpropagation: The Process
 1.	Error calculation: The loss function evaluates the difference between the predicted output (y^\hat{y}y^) and the true value (yyy).
 2.	Backward pass:
-o	The gradient of the loss with respect to the final layer's outputs is calculated.
-o	These gradients are propagated backward using the chain rule, considering the derivatives of the activation functions.
+-	The gradient of the loss with respect to the final layer's outputs is calculated.
+-	These gradients are propagated backward using the chain rule, considering the derivatives of the activation functions.
 3.	Weight update:
-o	Using the gradient and the optimizer (like SGD, Adam), the weights are adjusted.
+-	Using the gradient and the optimizer (like SGD, Adam), the weights are adjusted.
 ________________________________________
 # Relation and Choices
-•	Activation functions affect how the gradient is propagated through the network. For example:
-o	Sigmoid and Tanh can cause exploding/vanishing gradients.
-o	ReLU and its variants help mitigate this.
-•	Loss functions influence the goal of learning:
-o	For classification: Cross-Entropy + Softmax.
-o	For regression: MSE or Huber Loss.
+-	Activation functions affect how the gradient is propagated through the network. For example:
+-	Sigmoid and Tanh can cause exploding/vanishing gradients.
+-	ReLU and its variants help mitigate this.
+- Loss functions influence the goal of learning:
+- For classification: Cross-Entropy + Softmax.
+-	For regression: MSE or Huber Loss.
 
   
 
