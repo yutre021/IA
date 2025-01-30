@@ -9,6 +9,8 @@ But lest start of history of ML
 
 # 1950 - Alan Turing
 
+<img src="assets/RNA2.png" alt="Texto alternativo" width="2000">
+
  - [Article of the first thinking machine](https://archive.org/details/MIND--COMPUTING-MACHINERY-AND-INTELLIGENCE)
 
 # Theory of Probability
@@ -122,18 +124,18 @@ AlphaGo (DeepMind)
 - On A neural network, is set by input layer, hiden layer, and output layer
 - All layers is determined by maths functions
 
-#BACKPROPAGATION
+# BACKPROPAGATION
 
 - There are Common activation functions like > Sigmoid (Logistic function) [Sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function), TanH(Hyperbolic tangent) [TanH](https://en.wikipedia.org/wiki/Hyperbolic_function#Hyperbolic_tangent), ReLu(rectified linear unit) [RedLu](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) and [sofmat](https://en.wikipedia.org/wiki/Softmax_function)
 
-#Cluster
+# Cluster
 - Is for a process of a lot of amount data, where are distribution for others computer. [Cluster](https://www.ibm.com/docs/pt-br/ibm-mq/9.2?topic=management-application-programming-clusters&utm_source=chatgpt.com)
 
 - [Cluster 2](https://arxiv.org/abs/2207.05677?utm_source=chatgpt.com)
 
 
 
-#RNA
+# RNA
 - BUILDED OF PREDEFINED NEURONS
 - Computional Neurons
 - N -> IN
