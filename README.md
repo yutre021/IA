@@ -7,6 +7,9 @@ FEATURES OF AI
 
 But lest start of history of ML
 
+# 1943 A logical calculus of the ideas immanent in nervous activity
+[Book in pdf](https://link.springer.com/article/10.1007/BF02478259)
+
 # 1950 - Alan Turing
 
 <img src="assets/alan.png" alt="Texto alternativo" width="2000">
