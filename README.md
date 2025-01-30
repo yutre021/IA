@@ -149,6 +149,13 @@ AlphaGo (DeepMind)
 # Perceptron
 - It's a simple code math that calculate one weighted sum
 - [Here is one simple code example](https://github.com/yutre021/IA/blob/main/perceptron.py)
+- 1958: Frank Rosenblatt introduced the Perceptron, inspired by the human brain, to recognize patterns.
+- Initial Success: Gained attention as a machine learning breakthrough.
+- 1969: Minsky and Papert proved its limitation to solving only linearly separable problems (e.g., failed on XOR).
+- AI Winter: Interest in neural networks declined after this critique.
+- 1980s Revival: Multi-layer perceptrons and backpropagation brought neural networks back into focus.
+- Legacy: Perceptron remains a foundational concept in machine learning history.
+
 ## BIBLIOGRAPHY
 
 Bibliografia Básica
