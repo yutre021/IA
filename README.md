@@ -126,6 +126,8 @@ AlphaGo (DeepMind)
 
 # BACKPROPAGATION
 
+<img src="assets/backpropagation.png" alt="Texto alternativo" width="2000">
+
 - There are Common activation functions like > Sigmoid (Logistic function) [Sigmoid](https://en.wikipedia.org/wiki/Sigmoid_function), TanH(Hyperbolic tangent) [TanH](https://en.wikipedia.org/wiki/Hyperbolic_function#Hyperbolic_tangent), ReLu(rectified linear unit) [RedLu](https://en.wikipedia.org/wiki/Rectifier_(neural_networks)) and [sofmat](https://en.wikipedia.org/wiki/Softmax_function)
 
 # Cluster
