@@ -137,7 +137,7 @@ AlphaGo (DeepMind)
 - BUILDED OF PREDEFINED NEURONS
 - Computional Neurons
 - N -> IN
-- <img src="assets/RNA2.png" alt="Texto alternativo" width="300">
+- <img src="assets/RNA2.png" alt="Texto alternativo" width="2000">
 
 ## BIBLIOGRAPHY
 
