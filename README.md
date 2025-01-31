@@ -20,7 +20,7 @@ But lest start of history of ML
 - [PT Language](https://pt.wikipedia.org/wiki/Teoria_das_probabilidades)
  
  Fundamental of statistics was  build in century XVII.
-
+<img src="assets/statistics.png" alt="Texto alternativo" width="2000">
  - The GOL: Analisys and model of data
  - [In 1800, Francis Galton e Karl Pearson. R. A. Fisher, Statistics Modern started](https://projecteuclid.org/journals/statistical-science/volume-7/issue-1/R-A-Fisher-The-Founder-of-Modern-Statistics/10.1214/ss/1177011442.full)
 
