@@ -66,6 +66,11 @@ But lest start of history of ML
 | :---------- | :---------------------------------- |
 | `AZURE AI` | https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/02-content-safety.html|
 
+| Web site   | LINK                          |
+| :---------- | :---------------------------------- |
+| 'Tensorflow Playgroung` | https://playground.tensorflow.org/#activation=linear&regularization=L1&batchSize=10&dataset=circle&regDataset=reg-plane&learningRate=0.1&regularizationRate=0.01&noise=0&networkShape=4,2&seed=0.75500&showTestData=false&discretize=true&percTrainData=50&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=regression&initZero=false&hideText=false|
+
+
 
 ## 🛠 Abilities
 Python, R, Jupiter, and softwares of analysis...
