@@ -242,6 +242,13 @@ ________________________________________
 - 1980s Revival: Multi-layer perceptrons and backpropagation brought neural networks back into focus.
 - Legacy: Perceptron remains a foundational concept in machine learning history.
 
+# Supervised Learning
+- Algorithm K
+- Algorithm Linear Regression
+- Algorithm Logistic
+- SVMs
+- Neural Network
+
 ## BIBLIOGRAPHY
 
 Bibliografia Básica
