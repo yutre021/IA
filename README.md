@@ -249,6 +249,17 @@ ________________________________________
 - SVMs
 - Neural Network
 
+# Unsupervised Learning
+- K-Means
+- DBSCAN
+- HCA
+- One-class SVM
+- KERNEL ACP
+- LLW
+- t-SNE
+- Eclat
+
+
 ## BIBLIOGRAPHY
 
 Bibliografia Básica
