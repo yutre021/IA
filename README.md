@@ -225,7 +225,8 @@ ________________________________________
 - [Cluster 2](https://arxiv.org/abs/2207.05677?utm_source=chatgpt.com)
 
 
-
+# Linear Regression
+- [Linear Regression](https://github.com/yutre021/IA/blob/main/linerar_regression.ipynb)
 # RNA
 - BUILDED OF PREDEFINED NEURONS
 - Computional Neurons
