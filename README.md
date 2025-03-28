@@ -267,7 +267,7 @@ ________________________________________
 # XOR Problem - Neural Network with Sigmoid Activation
 
 ## Overview
-
+[View the XOR Neural Network Code](https://github.com/yutre021/IA/blob/main/xor_problem.cpp)
 This project implements a basic neural network for solving the **XOR (Exclusive OR)** problem. XOR is a binary operation that returns:
 - `1` if the two inputs are different.
 - `0` if the two inputs are the same.
