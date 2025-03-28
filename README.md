@@ -7,6 +7,10 @@ FEATURES OF AI
 
 But lest start of history of ML
 
+# 1950 - AI TIMELINE
+
+<img src="assets/ai_timeline.png" alt="Texto alternativo" width="2000">
+
 # 1943 A logical calculus of the ideas immanent in nervous activity
 [Book in pdf](https://link.springer.com/article/10.1007/BF02478259)
 
