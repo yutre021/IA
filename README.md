@@ -264,6 +264,67 @@ ________________________________________
 - t-SNE
 - Eclat
 
+# XOR Problem - Neural Network with Sigmoid Activation
+
+## Overview
+
+This project implements a basic neural network for solving the **XOR (Exclusive OR)** problem. XOR is a binary operation that returns:
+- `1` if the two inputs are different.
+- `0` if the two inputs are the same.
+
+A neural network with **sigmoid activation** is used to classify the XOR outputs based on the two input variables.
+
+## Sigmoid Function
+
+The **sigmoid function** is a commonly used **activation function** in neural networks. It takes a real-valued input and maps it to an output between 0 and 1. This makes it ideal for binary classification tasks, like the XOR problem, where the output needs to be in the range of 0 or 1.
+
+The **sigmoid function** is defined as:
+
+\[
+\sigma(x) = \frac{1}{1 + e^{-x}}
+\]
+
+Where:
+- \(x\) is the weighted sum of inputs to a neuron.
+- \(e\) is Euler's number (approximately 2.71828).
+
+The sigmoid function is continuous and smooth, which is why it's a preferred activation function in many cases. For the XOR problem, it helps the network adjust the output values to approximate the correct binary outputs (0 or 1).
+
+### Why Sigmoid in XOR?
+
+The XOR problem cannot be solved by a simple linear model. A neural network, using sigmoid as an activation function, can model this non-linear relationship. The network will learn to output values close to `0` and `1`, depending on the input combinations.
+
+By training the network, the model adjusts the weights to fit the XOR logic, where:
+- Input `(0, 0)` should output `0`
+- Input `(0, 1)` should output `1`
+- Input `(1, 0)` should output `1`
+- Input `(1, 1)` should output `0`
+
+## How It Works
+
+1. **Initialization:**
+   - The network is initialized with random weights for the inputs and hidden layers.
+   
+2. **Forward Propagation:**
+   - For each input pair (from the XOR truth table), the network computes the weighted sum of inputs, applies the sigmoid activation function, and outputs a value.
+
+3. **Training:**
+   - The network adjusts its weights based on the error between the predicted output and the target output using backpropagation (not shown in this code, but an essential part of training neural networks).
+
+4. **Sigmoid Activation:**
+   - The sigmoid function is used in the hidden layers to map the weighted sum of inputs to an output in the range of 0 to 1.
+
+## Running the Code
+
+To run the XOR neural network:
+
+1. Clone this repository to your local machine.
+2. Compile and run the C++ code using any C++ compiler (e.g., g++).
+3. Input the values for `lX`, `lY`, `wX`, and `wY` when prompted, and the network will process these values using the sigmoid activation function.
+
+```bash
+g++ xor_neural_network.cpp -o xor_nn
+./xor_nn
 
 ## BIBLIOGRAPHY
 
