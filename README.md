@@ -312,7 +312,7 @@ plt.legend()
 plt.grid()
 plt.show()
 
-  
+```
 
 # Cluster
 - Is for a process of a lot of amount data, where are distribution for others computer. [Cluster](https://www.ibm.com/docs/pt-br/ibm-mq/9.2?topic=management-application-programming-clusters&utm_source=chatgpt.com)
