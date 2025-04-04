@@ -221,6 +221,97 @@ ________________________________________
 - For classification: Cross-Entropy + Softmax.
 -	For regression: MSE or Huber Loss.
 
+# 📘 Aplicações de Derivadas e Integrais em Machine Learning
+
+Este repositório reúne anotações e exemplos práticos que mostram como **derivadas** e **integrais** são utilizadas em Machine Learning. Embora sejam conceitos da matemática, eles têm aplicações diretas em algoritmos de aprendizado de máquina.
+
+---
+
+## 📌 1. Derivadas na Otimização – Regressão Linear
+
+No treinamento de modelos como **regressão linear**, buscamos minimizar uma função de custo:
+
+\[
+J(\theta) = \frac{1}{2m} \sum (h_\theta(x_i) - y_i)^2
+\]
+
+Onde:
+- \( h_\theta(x_i) \) é a predição do modelo
+- \( y_i \) é o valor real
+- \( m \) é o número de amostras
+
+Para **encontrar o mínimo da função**, usamos o **Gradiente Descendente**, que utiliza a **derivada** da função de custo:
+
+\[
+\theta = \theta - \alpha \cdot \frac{dJ}{d\theta}
+\]
+
+🔁 A cada iteração (epoch), a derivada indica **em qual direção ajustar os pesos** \( \theta \) para reduzir o erro.
+
+---
+
+## 📌 2. Derivadas no Backpropagation (Redes Neurais)
+
+Em redes neurais, usamos derivadas para fazer o **backpropagation** (retropropagação do erro). Isso envolve:
+
+1. Derivar a **função de ativação** – exemplo com a **sigmoid**:
+   \[
+   \sigma(x) = \frac{1}{1 + e^{-x}}, \quad \sigma'(x) = \sigma(x)(1 - \sigma(x))
+   \]
+
+2. Aplicar a **regra da cadeia** para calcular os gradientes de cada camada da rede.
+
+O objetivo é entender **quanto cada peso contribuiu para o erro final**, para poder atualizá-los corretamente.
+
+---
+
+## 📌 3. Integrais – AUC, Probabilidade e Distribuições
+
+### 🔸 AUC – Área sob a curva ROC
+
+A **AUC (Area Under Curve)** representa a área sob a curva ROC (Relação entre FPR e TPR). Embora calculada numericamente, **conceitualmente é uma integral**:
+
+\[
+\text{AUC} = \int_{0}^{1} TPR(FPR) \, dFPR
+\]
+
+### 🔸 Probabilidades em distribuições contínuas
+
+Em distribuições contínuas (ex: Gaussiana), a **probabilidade de um valor estar entre dois pontos** é dada por uma integral da função densidade:
+
+\[
+P(a \leq X \leq b) = \int_a^b f(x) \, dx
+\]
+
+---
+
+## 🧪 Código Exemplo: Gradiente Descendente em Regressão
+
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+def f(x): return x**2
+def df(x): return 2*x  # derivada
+
+x = 10
+alpha = 0.1
+points = []
+
+for _ in range(20):
+    x = x - alpha * df(x)
+    points.append(x)
+
+x_vals = np.linspace(-10, 10, 100)
+plt.plot(x_vals, f(x_vals), label='f(x) = x²')
+plt.scatter(points, [f(p) for p in points], color='red')
+plt.title("Gradiente Descendente")
+plt.xlabel("x")
+plt.ylabel("f(x)")
+plt.legend()
+plt.grid()
+plt.show()
+
   
 
 # Cluster
